@@ -39,7 +39,7 @@ autocmd FileType c setlocal commentstring=//%s
 au BufRead *.{hpp,cpp} set filetype=cpp
 autocmd FileType cpp setlocal commentstring=//%s
 au BufEnter *.cpp set makeprg=g++\ -g\ %\ -o\ %< 
-autocmd FileType cpp nnoremap <C-B> :! ./build_run.sh %<CR>
+autocmd FileType cpp nnoremap <C-B> :! ~/.config/nvim/configs/build_run.sh %<CR>
 
 
 

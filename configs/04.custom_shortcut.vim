@@ -1,0 +1,3 @@
+nnoremap <C-A> ggVG
+
+

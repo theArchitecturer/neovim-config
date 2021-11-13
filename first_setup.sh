@@ -7,7 +7,7 @@ source ~/.bashrc
 nvm install --lts
 
 if [ "$1" = "ub" ]; then 
-    sudo apt install python3-pip nodejs xclip 
+    sudo apt install python3-pip nodejs xclip fonts-powerline
 elif [ "$1" = "ar" ]; then
     sudo pacman -S python3-pip nodejs
 fi

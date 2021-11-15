@@ -113,4 +113,5 @@ nnoremap <leader>oc :vsplit term://cmus <CR>
 tnoremap <Esc> <C-\><C-n>
 
 nnoremap <F5> :GoRun % <CR>
+nnoremap <C-X> :! cat % \| clip.exe <CR>
 inoremap .. <Esc>

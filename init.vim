@@ -33,8 +33,8 @@ Plug 'tpope/vim-unimpaired'
 " Plug 'Shougo/neosnippet-snippets'
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 'kyazdani42/nvim-web-devicons'
-Plug 'romgrk/barbar.nvim'
 " Plug 'kyazdani42/nvim-tree.lua'
+Plug 'romgrk/barbar.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-obsession'
 

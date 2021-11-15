@@ -7,7 +7,11 @@ source ~/.bashrc
 nvm install --lts
 
 if [ "$1" = "ub" ]; then 
-    sudo apt install python3-pip nodejs xclip fonts-powerline
+    sudo apt install python3-pip xclip fonts-powerline
+elif [ "$1" = "al" ]; then
+    sudo apk add python3-pip 
 elif [ "$1" = "ar" ]; then
-    sudo pacman -S python3-pip nodejs
+    sudo pacman -S python3-pip 
 fi
+
+pip install pynvim
